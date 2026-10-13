@@ -1,3 +1,21 @@
+<head>
+<link rel="stylesheet" href="css/main.css">
+</head>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
 header,footer{
-    color: palevioletred;
+    background-color: #c79998;
+}
+.site-title {
+    color: #826c5a;
+    font-size: 24px;
+    font-weight: bold;
+}
+#piccrewimg {
+   box-shadow: 0 4px 8px rgba(0, 0, 2, 1);
+}
+::-moz-list-bullet{
+    shape: square;
 }
