@@ -32,13 +32,13 @@ header,footer{
     background-color: #c79998;
 }
 
-a {
+.index-page, .notes-page {
     text-decoration: none;
     background-color: #c79998;
     border: 2px solid #826c5a;
 }
 
-a:hover {
+.index-page, .notes-page :hover {
     background-color: #826c5a;
     color: #c79998;
 }
