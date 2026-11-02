@@ -23,22 +23,30 @@ header,footer{
     background-color: #b59f8d;
 }
 
-[data-custom="hobby"]:nth-child(even) {
-    background-color: #826c5a;
-}
-
 [data-custom="notes"] {
     list-style-type: none;
     background-color: #c79998;
 }
 
+<<<<<<< HEAD
 .index-page, .notes-page {
     text-decoration: none;
+=======
+.homepage, .notepage {
+    display: inline-block;
+>>>>>>> 1a1d9427bde8ac20e08f78f5306db4d7b153be0e
     background-color: #c79998;
     border: 2px solid #826c5a;
+    text-decoration: none;
+    color:ghostwhite;
+    padding: 10px 15px;
 }
 
+<<<<<<< HEAD
 .index-page, .notes-page :hover {
+=======
+.homepage:hover, .notepage:hover, .homepage:focus, .notepage:focus {
+>>>>>>> 1a1d9427bde8ac20e08f78f5306db4d7b153be0e
     background-color: #826c5a;
-    color: #c79998;
+    color: #ffffff;
 }
