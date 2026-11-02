@@ -76,6 +76,55 @@ padding-left: 25px;
 color: #2c241e;
 line-height: 1.7;
 }
-.facts li{
+
+.facts li {
     margin-bottom: 8px;
+}
+
+/* Contact form */
+.contact {
+    margin-top: 30px;
+}
+
+.contact h2 {
+    color: #344b3d;
+}
+
+.contact form {
+padding: 15px;
+border: 1px solid #7b8b75;
+}
+
+.contact form > label{
+    display: block;
+    margin: 12px 0 5px;
+}
+
+.contact input[type=text], .contact[type="email"],.contact textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff9f0;
+    border: 1px solid #b7aa95;
+}
+
+.contact textarea{
+    height: 90px;
+}
+
+.contact fieldset{
+    border: none;
+    padding: 15px 0;
+}
+
+.contact legend {
+    margin-bottom: 10px;
+}
+
+.contact button {
+    padding: 8px 15px;
+    background-color: #344b3d;
+    color: #F5EBDD;
+    border: none;
+    cursor: pointer;
 }
