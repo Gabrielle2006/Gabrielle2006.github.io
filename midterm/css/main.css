@@ -100,7 +100,9 @@ border: 1px solid #7b8b75;
     margin: 12px 0 5px;
 }
 
-.contact input[type=text], .contact[type="email"],.contact textarea{
+.contact input[type=text],
+.contact input[type="email"],
+.contact textarea{
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
@@ -127,4 +129,15 @@ border: 1px solid #7b8b75;
     color: #F5EBDD;
     border: none;
     cursor: pointer;
+}
+/* Footer styling */
+footer{
+    padding: 20px;
+    text-align: right;
+    color:#344b3d;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
 }
